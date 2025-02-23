@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="/_next/static/media/a34f9d1faa5f3315-s.p.woff2"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/d018e5cd1e9966a6.css"
+      data-precedence="next"
+    />
+    <link
+      rel="preload"
+      as="script"
+      fetchPriority="low"
+      href="/_next/static/chunks/webpack-d6abbf1fcfdef890.js"
+    />
+    <script
+      src="/_next/static/chunks/4bd1b696-49dfdb1645950f8a.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/517-4ded1cf05032f257.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-app-a849309caff0f7ba.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/813-67beb5ecbde000d1.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/app/page-d44875bb33642cf9.js"
+      async=""
+    ></script>
+    <meta name="next-size-adjust" content="" />
+    <title>Infinite Money Glitch | $IMG Token</title>
+    
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="32x32" />
+    <script
+      src="/_next/static/chunks/polyfills-42372ed130431b0a.js"
+      nomodule=""
+    ></script>
+  </head>
+  <body class="__className_d65c78">
+    <main class="min-h-screen bg-black overflow-hidden relative">
+      <div class="fixed inset-0 pointer-events-none">
+        <div
+          class="absolute inset-0 bg-gradient-to-br from-black via-[#111] to-black"
+        ></div>
+        <div class="absolute inset-0 bg-noise opacity-[0.15]"></div>
+        <div class="absolute inset-0 scanline opacity-50"></div>
+        <div class="absolute inset-0 crt-effect"></div>
+      </div>
+      <div class="relative z-10 pointer-events-auto">
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/80 pointer-events-none"
+        ></div>
+        <section
+          class="min-h-screen flex items-center justify-center px-4 py-20 relative"
+        >
+          <div
+            class="absolute inset-0 backdrop-blur-sm bg-black/20 pointer-events-none"
+          ></div>
+          <div class="absolute inset-0 crt-effect pointer-events-none"></div>
+          <div class="text-center relative z-10 pointer-events-auto">
+            <div class="mb-8" style="opacity: 0; transform: scale(0.8)">
+              <svg
+                width="200"
+                height="80"
+                viewBox="0 0 200 80"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="glitch-effect"
+              >
+                <defs>
+                  <filter id="glitch">
+                    <feColorMatrix
+                      in="SourceGraphic"
+                      type="matrix"
+                      values="1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0"
+                    ></feColorMatrix>
+                    <feOffset dx="-3" dy="0"></feOffset>
+                    <feGaussianBlur
+                      stdDeviation="1"
+                      result="blur"
+                    ></feGaussianBlur>
+                    <feColorMatrix
+                      type="matrix"
+                      values="1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0"
+                    ></feColorMatrix>
+                  </filter>
+                  <filter id="glow">
+                    <feGaussianBlur
+                      stdDeviation="2"
+                      result="coloredBlur"
+                    ></feGaussianBlur>
+                    <feFlood
+                      flood-color="#00ff00"
+                      flood-opacity="0.3"
+                    ></feFlood>
+                    <feComposite in2="coloredBlur" operator="in"></feComposite>
+                    <feMerge>
+                      <feMergeNode></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                </defs>
+                <style>
+                  .glitch-effect {
+                    animation: glitch 3s infinite;
+                    filter: url(#glow);
+                  }
+                  @keyframes glitch {
+                    0% {
+                      filter: url(#glitch) url(#glow);
+                    }
+                    1% {
+                      filter: none;
+                    }
+                    2% {
+                      filter: url(#glitch) url(#glow);
+                    }
+                    3% {
+                      filter: none;
+                    }
+                    5% {
+                      filter: url(#glitch) url(#glow);
+                    }
+                    6% {
+                      filter: none;
+                    }
+                    100% {
+                      filter: url(#glow);
+                    }
+                  }
+                  .logo-path {
+                    stroke: #00ff00;
+                    stroke-opacity: 0.8;
+                    animation: pathGlow 2s ease-in-out infinite;
+                  }
+                  @keyframes pathGlow {
+                    0%,
+                    100% {
+                      stroke-opacity: 0.8;
+                    }
+                    50% {
+                      stroke-opacity: 0.4;
+                    }
+                  }
+                  .logo-text {
+                    fill: #00ff00;
+                    font-family: monospace;
+                    font-weight: bold;
+                    animation: textPulse 2s ease-in-out infinite;
+                  }
+                  @keyframes textPulse {
+                    0%,
+                    100% {
+                      fill-opacity: 1;
+                    }
+                    50% {
+                      fill-opacity: 0.7;
+                    }
+                  }
+                </style>
+                <path
+                  d="M20 40L40 20H160L180 40L160 60H40L20 40Z"
+                  fill="rgba(0, 255, 0, 0.1)"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  class="logo-path"
+                ></path>
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  class="logo-text text-2xl"
+                >
+                  IMG
+                </text>
+              </svg>
+            </div>
+            <h1
+              class="text-6xl md:text-7xl font-bold retro-text mb-6 glitch"
+              data-text="Infinite Money Glitch"
+              style="opacity: 0"
+            >
+              Infinite Money Glitch
+            </h1>
+            <p
+              class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto"
+              style="opacity: 0"
+            >
+              Earn Solana rewards every 5 minutes just by holding $IMG tokens
+            </p>
+            <div class="flex gap-4 justify-center" style="opacity: 0">
+              <a
+                href="https://jup.ag/swap/SOL-znv3FZt2HFAvzYf5LxzVyryh3mBXWuTRRng25gEZAjh"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="retro-border px-8 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105"
+                >Buy Now</a
+              >
+              <div class="flex gap-4">
+                <a
+                  href="https://dexscreener.com/solana/znv3FZt2HFAvzYf5LxzVyryh3mBXWuTRRng25gEZAjh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="retro-border px-6 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                  ><span class="font-mono">📊</span>Chart</a
+                ><a
+                  href="https://x.com/imgrewards"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="retro-border px-6 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                  ><span class="font-mono">𝕏</span></a
+                ><a
+                  href="tglink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="retro-border px-6 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                  ><span class="font-mono">📱</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-20 px-4 relative scanline">
+          <div class="absolute inset-0 backdrop-blur-md bg-black/40"></div>
+          <div class="absolute inset-0 crt-effect pointer-events-none"></div>
+          <div class="max-w-6xl mx-auto relative z-10">
+            <div class="text-center mb-16" style="opacity: 0">
+              <h2
+                class="text-4xl md:text-5xl font-bold retro-text mb-6 glitch"
+                data-text="Automatic Solana Rewards"
+              >
+                Automatic Solana Rewards
+              </h2>
+              <p class="text-xl opacity-80 max-w-3xl mx-auto font-mono">
+                &gt; Every 5 minutes, holders receive Solana rewards
+                automatically distributed to their wallets _
+              </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+              <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div
+                  class="retro-border p-8 transition-all duration-300 hover:bg-[#00ff00]/10 group h-full"
+                  style="opacity: 0; transform: scaleX(0)"
+                >
+                  <h3 class="text-2xl font-bold retro-text mb-6">
+                    [How_It_Works]
+                  </h3>
+                  <ul class="space-y-4 font-mono">
+                    <li
+                      class="flex items-start space-x-3 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >&gt;</span
+                      >
+                      <p>
+                        5% tax is collected from every buy and sell transaction
+                      </p>
+                    </li>
+                    <li
+                      class="flex items-start space-x-3 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >&gt;</span
+                      >
+                      <p>Tax is automatically converted to Solana</p>
+                    </li>
+                    <li
+                      class="flex items-start space-x-3 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >&gt;</span
+                      >
+                      <p>
+                        Smart contract distributes Solana to all holders every 5
+                        minutes
+                      </p>
+                    </li>
+                    <li
+                      class="flex items-start space-x-3 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >&gt;</span
+                      >
+                      <p>Rewards are proportional to your token holdings</p>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="retro-border p-8 transition-all duration-300 hover:bg-[#00ff00]/10 group h-full"
+                  style="opacity: 0; transform: scaleX(0)"
+                >
+                  <h3 class="text-2xl font-bold retro-text mb-6">[Benefits]</h3>
+                  <ul class="space-y-6 font-mono">
+                    <li
+                      class="flex items-center space-x-4 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >[+]</span
+                      >
+                      <p>Earn passive income in Solana just by holding</p>
+                    </li>
+                    <li
+                      class="flex items-center space-x-4 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >[+]</span
+                      >
+                      <p>No need to claim - rewards are automatic</p>
+                    </li>
+                    <li
+                      class="flex items-center space-x-4 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >[+]</span
+                      >
+                      <p>Frequent 5-minute distribution cycles</p>
+                    </li>
+                    <li
+                      class="flex items-center space-x-4 group/item hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <span
+                        class="opacity-60 group-hover/item:text-[#00ff00] transition-colors duration-300"
+                        >[+]</span
+                      >
+                      <p>Higher trading volume means more rewards</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="retro-border p-8 transition-all duration-300 hover:bg-[#00ff00]/10 group w-full max-w-2xl mx-auto relative z-20"
+                style="opacity: 0; transform: scaleX(0)"
+              >
+                <h3 class="text-2xl font-bold retro-text mb-6">
+                  [Rewards_Calculator]
+                </h3>
+                <div class="space-y-6 font-mono">
+                  <div class="space-y-2">
+                    <label class="block opacity-80">24h Volume (USD)</label
+                    ><input
+                      type="text"
+                      class="w-full px-4 py-2 bg-black/50 border border-[#00ff00]/30 rounded focus:border-[#00ff00] focus:outline-none transition-colors text-white relative z-30"
+                      value="100,000"
+                    />
+                    <div class="flex justify-between text-sm opacity-60">
+                      <span>$0</span><span>$<!-- -->100,000</span>
+                    </div>
+                  </div>
+                  <div class="space-y-2">
+                    <label class="block opacity-80">Your $IMG Holdings</label
+                    ><input
+                      type="text"
+                      class="w-full px-4 py-2 bg-black/50 border border-[#00ff00]/30 rounded focus:border-[#00ff00] focus:outline-none transition-colors text-white relative z-30"
+                      placeholder="Enter your token amount"
+                      value="1,000,000"
+                    />
+                  </div>
+                  <div class="mt-8 space-y-4 p-4 bg-black/30 rounded">
+                    <div class="flex justify-between items-center">
+                      <span class="opacity-80">Daily Rewards Pool:</span
+                      ><span class="text-[#00ff00]">$<!-- -->0</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span class="opacity-80">Your Daily Earnings:</span
+                      ><span class="text-[#00ff00]">$<!-- -->0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-20 px-4 relative scanline">
+          <div class="absolute inset-0 backdrop-blur-md bg-black/40"></div>
+          <div class="absolute inset-0 crt-effect pointer-events-none"></div>
+          <div class="max-w-6xl mx-auto relative z-10">
+            <h2
+              class="text-4xl md:text-5xl font-bold text-center retro-text mb-12 glitch"
+              data-text="Why Choose $IMG?"
+              style="opacity: 0"
+            >
+              Why Choose $IMG?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div
+                class="retro-border p-6 hover:bg-white/5 transition-all duration-300 transform hover:scale-105 group backdrop-blur-sm"
+                style="opacity: 0; transform: scaleY(0)"
+              >
+                <div
+                  class="font-mono text-2xl mb-4 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                >
+                  &gt;_
+                </div>
+                <h3 class="text-xl font-bold mb-2 retro-text">
+                  5% Tax Distribution
+                </h3>
+                <p class="opacity-80">
+                  Every buy and sell transaction contributes to the reward pool
+                </p>
+              </div>
+              <div
+                class="retro-border p-6 hover:bg-white/5 transition-all duration-300 transform hover:scale-105 group backdrop-blur-sm"
+                style="opacity: 0; transform: scaleY(0)"
+              >
+                <div
+                  class="font-mono text-2xl mb-4 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                >
+                  []
+                </div>
+                <h3 class="text-xl font-bold mb-2 retro-text">
+                  Auto-Claim System
+                </h3>
+                <p class="opacity-80">
+                  Rewards are automatically distributed every 5 minutes
+                </p>
+              </div>
+              <div
+                class="retro-border p-6 hover:bg-white/5 transition-all duration-300 transform hover:scale-105 group backdrop-blur-sm"
+                style="opacity: 0; transform: scaleY(0)"
+              >
+                <div
+                  class="font-mono text-2xl mb-4 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                >
+                  $_
+                </div>
+                <h3 class="text-xl font-bold mb-2 retro-text">
+                  Solana Rewards
+                </h3>
+                <p class="opacity-80">
+                  Earn Solana just by holding $IMG tokens in your wallet
+                </p>
+              </div>
+              <div
+                class="retro-border p-6 hover:bg-white/5 transition-all duration-300 transform hover:scale-105 group backdrop-blur-sm"
+                style="opacity: 0; transform: scaleY(0)"
+              >
+                <div
+                  class="font-mono text-2xl mb-4 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                >
+                  //
+                </div>
+                <h3 class="text-xl font-bold mb-2 retro-text">Fair Launch</h3>
+                <p class="opacity-80">
+                  No pre-sale, no team tokens, 100% fair distribution
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-20 px-4 crt-effect relative scanline">
+          <div
+            class="absolute inset-0 backdrop-blur-md bg-black/40 crt-effect"
+          ></div>
+          <div class="max-w-6xl mx-auto relative z-10">
+            <h2
+              class="text-4xl md:text-5xl font-bold text-center retro-text mb-16 glitch"
+              data-text="Tokenomics"
+              style="opacity: 0"
+            >
+              Tokenomics
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div
+                class="retro-border p-6 transition-all duration-300 transform hover:scale-105 group hover:bg-white/5"
+                style="opacity: 0"
+              >
+                <div class="text-center">
+                  <div
+                    class="font-mono text-xl mb-2 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                  >
+                    [ 1B ]
+                  </div>
+                  <div
+                    class="text-3xl lg:text-4xl font-bold retro-text mb-2 break-words"
+                  >
+                    1,000,000,000
+                  </div>
+                  <div class="text-lg opacity-80">Total Supply</div>
+                </div>
+              </div>
+              <div
+                class="retro-border p-6 transition-all duration-300 transform hover:scale-105 group hover:bg-white/5"
+                style="opacity: 0"
+              >
+                <div class="text-center">
+                  <div
+                    class="font-mono text-xl mb-2 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                  >
+                    =====
+                  </div>
+                  <div
+                    class="text-3xl lg:text-4xl font-bold retro-text mb-2 break-words"
+                  >
+                    100%
+                  </div>
+                  <div class="text-lg opacity-80">Initial Liquidity</div>
+                </div>
+              </div>
+              <div
+                class="retro-border p-6 transition-all duration-300 transform hover:scale-105 group hover:bg-white/5"
+                style="opacity: 0"
+              >
+                <div class="text-center">
+                  <div
+                    class="font-mono text-xl mb-2 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                  >
+                    &lt; 5% &gt;
+                  </div>
+                  <div
+                    class="text-3xl lg:text-4xl font-bold retro-text mb-2 break-words"
+                  >
+                    5%
+                  </div>
+                  <div class="text-lg opacity-80">Tax</div>
+                </div>
+              </div>
+              <div
+                class="retro-border p-6 transition-all duration-300 transform hover:scale-105 group hover:bg-white/5"
+                style="opacity: 0"
+              >
+                <div class="text-center">
+                  <div
+                    class="font-mono text-xl mb-2 opacity-60 group-hover:text-white/80 transition-colors duration-300"
+                  >
+                    &gt;&gt;100&lt;&lt;
+                  </div>
+                  <div
+                    class="text-3xl lg:text-4xl font-bold retro-text mb-2 break-words"
+                  >
+                    100%
+                  </div>
+                  <div class="text-lg opacity-80">Fair Launch</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-16 text-center max-w-3xl mx-auto retro-border p-8 hover:bg-white/5 transition-all duration-300"
+              style="opacity: 0"
+            >
+              <h3 class="text-2xl font-bold retro-text mb-4">
+                True Fair Launch
+              </h3>
+              <p class="text-lg opacity-80">
+                100% of the total supply is added to liquidity at launch, with
+                no team tokens, no presale, and no max wallet limits. The 5% tax
+                on transactions is automatically distributed as Solana rewards
+                to all holders every 5 minutes.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script
+      src="/_next/static/chunks/webpack-d6abbf1fcfdef890.js"
+      async=""
+    ></script>
+    <script>
+      (self.__next_f = self.__next_f || []).push([0]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '1:"$Sreact.fragment"\n2:I[5244,[],""]\n3:I[3866,[],""]\n4:I[8262,["813","static/chunks/813-67beb5ecbde000d1.js","974","static/chunks/app/page-d44875bb33642cf9.js"],"default"]\n5:I[7257,["813","static/chunks/813-67beb5ecbde000d1.js","974","static/chunks/app/page-d44875bb33642cf9.js"],"default"]\n6:I[2173,["813","static/chunks/813-67beb5ecbde000d1.js","974","static/chunks/app/page-d44875bb33642cf9.js"],"default"]\n7:I[8482,["813","static/chunks/813-67beb5ecbde000d1.js","974","static/chunks/app/page-d44875bb33642cf9.js"],"default"]\n8:I[6213,[],"OutletBoundary"]\na:I[6213,[],"MetadataBoundary"]\nc:I[6213,[],"ViewportBoundary"]\ne:I[4835,[],""]\n:HL["/_next/static/media/a34f9d1faa5f3315-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n:HL["/_next/static/css/d018e5cd1e9966a6.css","style"]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '0:{"P":null,"b":"EKS16rDe9U6iqqX7noKuw","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d018e5cd1e9966a6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_d65c78","children":["$","$L2",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\\"Segoe UI\\",Roboto,Helvetica,Arial,sans-serif,\\"Apple Color Emoji\\",\\"Segoe UI Emoji\\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-black overflow-hidden relative","children":[["$","div",null,{"className":"fixed inset-0 pointer-events-none","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-br from-black via-[#111] to-black"}],["$","div",null,{"className":"absolute inset-0 bg-noise opacity-[0.15]"}],["$","div",null,{"className":"absolute inset-0 scanline opacity-50"}],["$","div",null,{"className":"absolute inset-0 crt-effect"}]]}],["$","div",null,{"className":"relative z-10 pointer-events-auto","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/80 pointer-events-none"}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}]]}]]}],null,["$","$L8",null,{"children":"$L9"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","354siP_ho16frCJbL_zBx",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        'd:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]\nb:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Infinite Money Glitch | $IMG Token"}],["$","meta","2",{"name":"description","content":"Earn Solana rewards every 5 minutes just by holding $IMG tokens. 5% tax on transactions, 100% fair launch, no team tokens, no presale."}],["$","meta","3",{"name":"keywords","content":"Solana,IMG,token,crypto,rewards,fair launch,DeFi"}],["$","meta","4",{"property":"og:title","content":"Infinite Money Glitch | $IMG Token"}],["$","meta","5",{"property":"og:description","content":"Earn Solana rewards every 5 minutes just by holding $IMG tokens"}],["$","meta","6",{"property":"og:type","content":"website"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"Infinite Money Glitch | $IMG Token"}],["$","meta","9",{"name":"twitter:description","content":"Earn Solana rewards every 5 minutes just by holding $IMG tokens"}],["$","link","10",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"32x32"}]]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([1, "9:null\n"]);
+    </script>
+  </body>
+</html>
