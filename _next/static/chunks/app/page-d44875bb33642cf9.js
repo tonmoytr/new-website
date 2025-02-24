@@ -14,7 +14,7 @@
         s = a(6813);
       let r = [
           {
-            title: "5% Tax Distribution",
+            title: "7.5% Tax Distribution",
             description:
               "Every buy and sell transaction contributes to the reward pool",
             icon: ">_",
@@ -167,7 +167,7 @@
             }),
             (0, i.jsx)("style", {
               children:
-                "\n          .glitch-effect {\n            animation: glitch 3s infinite;\n            filter: url(#glow);\n          }\n          @keyframes glitch {\n            0% { filter: url(#glitch) url(#glow); }\n            1% { filter: none; }\n            2% { filter: url(#glitch) url(#glow); }\n            3% { filter: none; }\n            5% { filter: url(#glitch) url(#glow); }\n            6% { filter: none; }\n            100% { filter: url(#glow); }\n          }\n          .logo-path {\n            stroke: #00ff00;\n            stroke-opacity: 0.8;\n            animation: pathGlow 2s ease-in-out infinite;\n          }\n          @keyframes pathGlow {\n            0%, 100% { stroke-opacity: 0.8; }\n            50% { stroke-opacity: 0.4; }\n          }\n          .logo-text {\n            fill: #00ff00;\n            font-family: monospace;\n            font-weight: bold;\n            animation: textPulse 2s ease-in-out infinite;\n          }\n          @keyframes textPulse {\n            0%, 100% { fill-opacity: 1; }\n            50% { fill-opacity: 0.7; }\n          }\n        ",
+                "\n          .glitch-effect {\n            animation: glitch 3s infinite;\n            filter: url(#glow);\n          }\n          @keyframes glitch {\n            0% { filter: url(#glitch) url(#glow); }\n            1% { filter: none; }\n            2% { filter: url(#glitch) url(#glow); }\n            3% { filter: none; }\n            7.5% { filter: url(#glitch) url(#glow); }\n            6% { filter: none; }\n            100% { filter: url(#glow); }\n          }\n          .logo-path {\n            stroke: #00ff00;\n            stroke-opacity: 0.8;\n            animation: pathGlow 2s ease-in-out infinite;\n          }\n          @keyframes pathGlow {\n            0%, 100% { stroke-opacity: 0.8; }\n            50% { stroke-opacity: 0.4; }\n          }\n          .logo-text {\n            fill: #00ff00;\n            font-family: monospace;\n            font-weight: bold;\n            animation: textPulse 2s ease-in-out infinite;\n          }\n          @keyframes textPulse {\n            0%, 100% { fill-opacity: 1; }\n            50% { fill-opacity: 0.7; }\n          }\n        ",
             }),
             (0, i.jsx)("path", {
               d: "M20 40L40 20H160L180 40L160 60H40L20 40Z",
@@ -477,7 +477,7 @@
                                     }),
                                     (0, i.jsx)("p", {
                                       children:
-                                        "5% tax is collected from every buy and sell transaction",
+                                        "7.5% tax is collected from every buy and sell transaction",
                                     }),
                                   ],
                                 }),
@@ -628,7 +628,7 @@
       let r = [
         { label: "Total Supply", value: "1,000,000,000", ascii: "[ 1B ]" },
         { label: "Initial Liquidity", value: "100%", ascii: "=====" },
-        { label: "Tax", value: "5%", ascii: "< 5% >" },
+        { label: "Tax", value: "7.5%", ascii: "< 7.5% >" },
         { label: "Fair Launch", value: "100%", ascii: ">>100<<" },
       ];
       function n() {
@@ -704,7 +704,7 @@
                     (0, i.jsx)("p", {
                       className: "text-lg opacity-80",
                       children:
-                        "100% of the total supply is added to liquidity at launch, with no team tokens, no presale, and no max wallet limits. The 5% tax on transactions is automatically distributed as Solana rewards to all holders every 5 minutes.",
+                        "100% of the total supply is added to liquidity at launch, with no team tokens, no presale, and no max wallet limits. The 7.5% tax on transactions is automatically distributed as Solana rewards to all holders every 5 minutes.",
                     }),
                   ],
                 }),
