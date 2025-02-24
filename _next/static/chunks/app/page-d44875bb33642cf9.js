@@ -26,9 +26,9 @@
             icon: "[]",
           },
           {
-            title: "Ethereum Rewards",
+            title: "Solana Rewards",
             description:
-              "Earn Ethereum just by holding $IMG tokens in your wallet",
+              "Earn Solana just by holding $IMG tokens in your wallet",
             icon: "$_",
           },
           {
@@ -182,7 +182,7 @@
               dominantBaseline: "middle",
               textAnchor: "middle",
               className: "logo-text text-2xl",
-              children: "NEW",
+              children: "MIM",
             }),
           ],
         });
@@ -215,8 +215,8 @@
                   transition: { duration: 0.8 },
                   className:
                     "text-6xl md:text-7xl font-bold retro-text mb-6 glitch",
-                  "data-text": "Guaranteed Residual Income",
-                  children: "Guaranteed Residual Income",
+                  "data-text": "Magic Internet Money",
+                  children: "Magic Internet Money",
                 }),
                 (0, i.jsx)(s.P.p, {
                   initial: { opacity: 0 },
@@ -224,7 +224,7 @@
                   transition: { duration: 0.8, delay: 0.2 },
                   className: "text-xl md:text-2xl mb-8 max-w-2xl mx-auto",
                   children:
-                    "Hold $NEW tokens and enjoy effortless Ethereum rewards every few minutes.",
+                    "Hold $MIM tokens and enjoy effortless Solana rewards every few minutes.",
                 }),
                 (0, i.jsxs)(s.P.div, {
                   initial: { opacity: 0 },
@@ -432,14 +432,14 @@
                     (0, i.jsx)("h2", {
                       className:
                         "text-4xl md:text-5xl font-bold retro-text mb-6 glitch",
-                      "data-text": "Automatic Ethereum Rewards",
-                      children: "Automatic Ethereum Rewards",
+                      "data-text": "Automatic Solana Rewards",
+                      children: "Automatic Solana Rewards",
                     }),
                     (0, i.jsx)("p", {
                       className:
                         "text-xl opacity-80 max-w-3xl mx-auto font-mono",
                       children:
-                        "> Every 5 minutes, holders receive Ethereum rewards automatically distributed to their wallets _",
+                        "> Every 5 minutes, holders receive Solana rewards automatically distributed to their wallets _",
                     }),
                   ],
                 }),
@@ -492,7 +492,7 @@
                                     }),
                                     (0, i.jsx)("p", {
                                       children:
-                                        "Tax is automatically converted to Ethereum",
+                                        "Tax is automatically converted to Solana",
                                     }),
                                   ],
                                 }),
@@ -507,7 +507,7 @@
                                     }),
                                     (0, i.jsx)("p", {
                                       children:
-                                        "Smart contract distributes Ethereum to all holders every 5 minutes",
+                                        "Smart contract distributes Solana to all holders every 5 minutes",
                                     }),
                                   ],
                                 }),
@@ -556,7 +556,7 @@
                                     }),
                                     (0, i.jsx)("p", {
                                       children:
-                                        "Earn passive income in Ethereum just by holding",
+                                        "Earn passive income in Solana just by holding",
                                     }),
                                   ],
                                 }),
@@ -704,7 +704,7 @@
                     (0, i.jsx)("p", {
                       className: "text-lg opacity-80",
                       children:
-                        "100% of the total supply is added to liquidity at launch, with no team tokens, no presale, and no max wallet limits. The 5% tax on transactions is automatically distributed as Ethereum rewards to all holders every 5 minutes.",
+                        "100% of the total supply is added to liquidity at launch, with no team tokens, no presale, and no max wallet limits. The 5% tax on transactions is automatically distributed as Solana rewards to all holders every 5 minutes.",
                     }),
                   ],
                 }),
