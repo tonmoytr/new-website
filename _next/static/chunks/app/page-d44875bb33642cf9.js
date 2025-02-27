@@ -263,17 +263,7 @@
                             "Chart",
                           ],
                         }),
-                        (0, i.jsx)("a", {
-                          href: "x.html",
-                          target: "_blank",
-                          rel: "noopener noreferrer",
-                          className:
-                            "retro-border px-6 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105 flex items-center gap-2",
-                          children: (0, i.jsx)("span", {
-                            className: "font-mono",
-                            children: "\uD835\uDD4F",
-                          }),
-                        }),
+                        (0, i.jsx),
                         ,
                       ],
                     }),
