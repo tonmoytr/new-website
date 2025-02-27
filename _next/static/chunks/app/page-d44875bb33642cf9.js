@@ -21,21 +21,20 @@
           },
           {
             title: "Auto-Claim System",
-            description:
-              "Rewards are automatically distributed every 5 minutes",
+            description: "Rewards are automatically distributed every hour",
             icon: "[]",
           },
           {
-            title: "Solana Rewards",
+            title: "Ethereum Rewards",
             description:
-              "Earn Solana just by holding $IMG tokens in your wallet",
+              "If you prefer rewards in Ethereum this will be paid every 24hours",
             icon: "$_",
           },
-          {
-            title: "Fair Launch",
-            description: "No pre-sale, no team tokens, 100% fair distribution",
-            icon: "//",
-          },
+          // {
+          //   title: "Fair Launch",
+          //   description: "No pre-sale, no team tokens, 100% fair distribution",
+          //   icon: "//",
+          // },
         ],
         n = { hidden: {}, visible: { transition: { staggerChildren: 0.1 } } },
         l = {
@@ -223,8 +222,7 @@
                   animate: { opacity: 1 },
                   transition: { duration: 0.8, delay: 0.2 },
                   className: "text-xl md:text-2xl mb-8 max-w-2xl mx-auto",
-                  children:
-                    "Hold $MIM tokens and enjoy effortless Solana rewards every few minutes.",
+                  children: "Distributed hourly Holding $mim",
                 }),
                 (0, i.jsxs)(s.P.div, {
                   initial: { opacity: 0 },
@@ -241,7 +239,7 @@
                       children: "Whitepaper",
                     }),
                     (0, i.jsx)("a", {
-                      href: "buylink",
+                      href: "buy.html",
                       target: "_blank",
                       rel: "noopener noreferrer",
                       className:
@@ -252,7 +250,7 @@
                       className: "flex gap-4",
                       children: [
                         (0, i.jsxs)("a", {
-                          href: "dexslink",
+                          href: "chart.html",
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className:
@@ -266,7 +264,7 @@
                           ],
                         }),
                         (0, i.jsx)("a", {
-                          href: "twitterlink",
+                          href: "x.html",
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className:
@@ -276,17 +274,7 @@
                             children: "\uD835\uDD4F",
                           }),
                         }),
-                        (0, i.jsx)("a", {
-                          href: "tglink",
-                          target: "_blank",
-                          rel: "noopener noreferrer",
-                          className:
-                            "retro-border px-6 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105 flex items-center gap-2",
-                          children: (0, i.jsx)("span", {
-                            className: "font-mono",
-                            children: "\uD83D\uDCF1",
-                          }),
-                        }),
+                        (0, i.jsx),
                       ],
                     }),
                   ],
@@ -447,7 +435,7 @@
                       className:
                         "text-xl opacity-80 max-w-3xl mx-auto font-mono",
                       children:
-                        "> Every 5 minutes, holders receive Solana rewards automatically distributed to their wallets _",
+                        "> Every hour, holders receive Solana rewards automatically distributed to their wallets _",
                     }),
                   ],
                 }),
@@ -515,7 +503,7 @@
                                     }),
                                     (0, i.jsx)("p", {
                                       children:
-                                        "Smart contract distributes Solana to all holders every 5 minutes",
+                                        "Smart contract distributes Solana to all holders every hour",
                                     }),
                                   ],
                                 }),
@@ -593,8 +581,7 @@
                                       children: "[+]",
                                     }),
                                     (0, i.jsx)("p", {
-                                      children:
-                                        "Frequent 5-minute distribution cycles",
+                                      children: "Hourly distibution cycles ",
                                     }),
                                   ],
                                 }),
@@ -637,7 +624,7 @@
         { label: "Total Supply", value: "1,000,000,000", ascii: "[ 1B ]" },
         { label: "Initial Liquidity", value: "100%", ascii: "=====" },
         { label: "Tax", value: "7.5%", ascii: "< 7.5% >" },
-        { label: "Fair Launch", value: "100%", ascii: ">>100<<" },
+        { label: " Launch", value: "100%", ascii: ">>100<<" },
       ];
       function n() {
         return (0, i.jsxs)("section", {
@@ -707,12 +694,12 @@
                   children: [
                     (0, i.jsx)("h3", {
                       className: "text-2xl font-bold retro-text mb-4",
-                      children: "True Fair Launch",
+                      children: "Certik Certified",
                     }),
                     (0, i.jsx)("p", {
                       className: "text-lg opacity-80",
                       children:
-                        "100% of the total supply is added to liquidity at launch, with no team tokens, no presale, and no max wallet limits. The 7.5% tax on transactions is automatically distributed as Solana rewards to all holders every 5 minutes.",
+                        "Coming soon - Once the whitepaper is fully certified it will be available to view/ download",
                     }),
                   ],
                 }),
