@@ -236,7 +236,7 @@
                       rel: "noopener noreferrer",
                       className:
                         "retro-border px-8 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105",
-                      children: "Whitepaper",
+                      children: "White Paper",
                     }),
                     (0, i.jsx)("a", {
                       href: "buy.html",
@@ -258,7 +258,7 @@
                           children: [
                             (0, i.jsx)("span", {
                               className: "font-mono",
-                              children: "\uD83D\uDCCA",
+                              
                             }),
                             "Chart",
                           ],
@@ -274,7 +274,7 @@
                             children: "\uD835\uDD4F",
                           }),
                         }),
-                        (0, i.jsx),
+                        ,
                       ],
                     }),
                   ],
