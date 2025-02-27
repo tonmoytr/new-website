@@ -182,7 +182,7 @@
               dominantBaseline: "middle",
               textAnchor: "middle",
               className: "logo-text text-2xl",
-              children: "MIM",
+              children: "$MIM",
             }),
           ],
         });
@@ -232,6 +232,14 @@
                   transition: { duration: 0.8, delay: 0.4 },
                   className: "flex gap-4 justify-center",
                   children: [
+                    (0, i.jsx)("a", {
+                      href: "/whitepaper.html",
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                      className:
+                        "retro-border px-8 py-3 font-semibold hover:bg-white/5 transition-all duration-300 transform hover:scale-105",
+                      children: "Whitepaper",
+                    }),
                     (0, i.jsx)("a", {
                       href: "buylink",
                       target: "_blank",
